@@ -12,24 +12,6 @@ blueprint:
         device:
           integration: zwave_js
           manufacturer: Zooz
-          
-    target_device:
-      name: Target Device
-      description: "Select the device that the automation is intended
-      to target. This is typically the light or light group which
-      is controlled by the switch."
-      selector:
-        entity: 
-          domain: light
-          
-    all_lights:
-      name: All Lights
-      description: "Select the light group containing all of the 
-      basement lights. This will be used to turn all lights on
-      and off."
-      selector:
-        entity: 
-          domain: light
 
     up_1x:
       name: Press On (1x)
