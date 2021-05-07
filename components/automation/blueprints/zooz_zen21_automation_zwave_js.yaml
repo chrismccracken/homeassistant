@@ -140,6 +140,8 @@ action:
         - choose:
           - conditions: "{{ scene_value == 'KeyPressed' }}"
             sequence: !input up_1x
+          - conditions: "{{ scene_value == 'KeyPressed2x' }}"
+            sequence: !input up_2x        
           - conditions: "{{ scene_value == 'KeyPressed3x' }}"
             sequence: !input up_3x
           - conditions: "{{ scene_value == 'KeyPressed4x' }}"
